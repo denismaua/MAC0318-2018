@@ -1,0 +1,11 @@
+
+SquareRobot: SquareRobot.nxj
+	nxjupload -r SquareRobot.nxj
+
+SquareRobot.nxj: SquareRobot.class
+	nxjc SquareRobot.java
+	nxjlink -o SquareRobot SquareRobot
+
+
+
+nxjc SquareRobot.java
