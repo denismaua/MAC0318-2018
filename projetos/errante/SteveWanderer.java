@@ -48,7 +48,7 @@ class SteveWanderer {
 	    if (randomNum.nextInt(2) == 0) {
 	    	pilot.rotate(90,false);
 	    } else {
-	    	pilot.rotate(90,false);
+	    	pilot.rotate(-90,false);
 	    }
 	}
     }
