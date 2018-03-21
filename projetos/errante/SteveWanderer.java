@@ -5,6 +5,7 @@ import lejos.nxt.*;
 import lejos.util.Delay;
 import java.util.Random;
 
+
 class SteveWanderer {
     
     public static float WHEEL_SIZE = 5.6f; // wheel diameter (cm)
@@ -16,7 +17,7 @@ class SteveWanderer {
     public static float MIN_DIST = 10.0f; // minimum distance to wall (cm)
 
     public static void main (String[] args){
-
+	
 	UltrasonicSensor sonar = new UltrasonicSensor(SensorPort.S1);
 	
 	// SteveWanderer robot = new SteveWanderer();
