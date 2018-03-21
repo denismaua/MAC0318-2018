@@ -13,7 +13,7 @@ class SteveWanderer {
     public static int   MOVE_SPEED =  10; // (wheel circumference/sec) 
     public static int   TURN_SPEED =  110; // (wheel turns/sec) 
 
-    public static float MIN_DIST = 40.0f; // minimum distance to wall (cm)
+    public static float MIN_DIST = 10.0f; // minimum distance to wall (cm)
 
     public static void main (String[] args){
 
