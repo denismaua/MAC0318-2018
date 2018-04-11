@@ -6,7 +6,7 @@ import lejos.nxt.*;
 
 public class PID {
 
-    public static int BASEPOWER = 30; // speed
+    public static int BASEPOWER = 40; // speed
     public static int TARGET = 45; // Light measurement on line edge
     public static int MAXERROR = 30; // trim error at this value to improve stability 
     public static int KP = 2; // error proportional power constant 
