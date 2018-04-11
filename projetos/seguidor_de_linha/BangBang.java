@@ -1,6 +1,7 @@
 // Usando Robo 10
 // Assume que robo está 'fora' da linha
 
+// On-Off Controller
 import lejos.nxt.*;
 
 public class BangBang {
