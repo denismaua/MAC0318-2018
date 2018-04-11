@@ -1,0 +1,20 @@
+import lejos.nxt.*;
+
+public class BangBang{
+    public static void main(String[] args) {
+        LightSensor light = new LightSensor(SensorPort.S4);
+        NXTMotor mA = new NXTMotor(MotorPort.A);
+        NXTMotor mC = new NXTMotor(MotorPort.C);
+        while (!Button.ENTER.isDown()){
+            while (light.getLightValue() < 50 && !Button.ENTER.isDown()){
+                mA.setPower(50);
+                mC.setPower(-10);
+            } 
+            while (light.getLightValue() >= 50 && !Button.ENTER.isDown()){
+                mA.setPower(-10);
+                mC.setPower(50);
+            }
+        }
+    }
+}
+
